@@ -6,6 +6,12 @@ dependency injection.
 The service will search for a configuration parameter named `defaultTimeZoneId` to know which time zone id will be using
 for the conversions.
 
+## Install
+
+Just run
+
+    Install-Package Lagersoft.UtcLocalConversion.DependencyInjection -Version 1.0.0
+
 To use, simply call
 
     DateTimeModule.AddUtcLocalConversion()
