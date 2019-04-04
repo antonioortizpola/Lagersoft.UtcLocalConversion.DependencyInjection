@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <Authors>Antonio Ortiz Pola</Authors>
+        <Company>Lagersoft</Company>
+        <Product>Lagersoft commons</Product>
+        <Description>This is a simple tool to integrate a date conversion library based on nodatime with net core dependency injection.</Description>
+        <Copyright>2019 Lagersoft</Copyright>
+        <PackageTags>noda date-conversions localization</PackageTags>
+        <PackageProjectUrl>https://github.com/antonioortizpola/Lagersoft.UtcLocalConversion.DependencyInjection</PackageProjectUrl>
+        <PackageIconUrl>https://lagersoft.com/img/logo.png</PackageIconUrl>
+        <RepositoryUrl>https://github.com/antonioortizpola/Lagersoft.UtcLocalConversion.DependencyInjection</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReleaseNotes>First release</PackageReleaseNotes>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+      <PackageReference Include="NodaTime" Version="2.4.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="LICENSE" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_UnmanagedRegistrationCache Remove="obj\Lagersoft.UtcLocalConversion.DependencyInjection.csproj.UnmanagedRegistration.cache" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ResolveComReferenceCache Remove="obj\Debug\netcoreapp2.2\Lagersoft.UtcLocalConversion.DependencyInjection.csproj.ResolveComReference.cache" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <IntermediateAssembly Remove="obj\Debug\netcoreapp2.2\Lagersoft.UtcLocalConversion.DependencyInjection.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_DebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp2.2\Lagersoft.UtcLocalConversion.DependencyInjection.pdb" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_DeploymentManifestEntryPoint Remove="obj\Debug\netcoreapp2.2\Lagersoft.UtcLocalConversion.DependencyInjection.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ApplicationManifest Remove="obj\Debug\netcoreapp2.2\Native.Lagersoft.UtcLocalConversion.DependencyInjection.manifest" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <DeployManifest Remove="obj\Debug\netcoreapp2.2\Lagersoft.UtcLocalConversion.DependencyInjection.application" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lagersoft.UtcLocalConversion.DependencyInjection", "Lagersoft.UtcLocalConversion.DependencyInjection\Lagersoft.UtcLocalConversion.DependencyInjection.csproj", "{679CEC31-C425-40F4-89A4-17F0F6C16561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lagersoft.UtcLocalConversion.DependencyInjection.Test", "Lagersoft.UtcLocalConversion.DependencyInjection.Test\Lagersoft.UtcLocalConversion.DependencyInjection.Test.csproj", "{BC750EB7-6220-47C5-9C35-66FD3BF4BBB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{679CEC31-C425-40F4-89A4-17F0F6C16561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679CEC31-C425-40F4-89A4-17F0F6C16561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679CEC31-C425-40F4-89A4-17F0F6C16561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679CEC31-C425-40F4-89A4-17F0F6C16561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC750EB7-6220-47C5-9C35-66FD3BF4BBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC750EB7-6220-47C5-9C35-66FD3BF4BBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC750EB7-6220-47C5-9C35-66FD3BF4BBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC750EB7-6220-47C5-9C35-66FD3BF4BBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
